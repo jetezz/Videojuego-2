@@ -1,7 +1,7 @@
 # Videojuego-2
 Videojuego creado con c++ y sfml
 
-https://www.youtube.com/watch?v=_oH9T0xlglc
+[![](http://img.youtube.com/vi/_oH9T0xlglc/0.jpg)](http://www.youtube.com/watch?v=_oH9T0xlglc "")
 
 
 1.Ficha del juego
