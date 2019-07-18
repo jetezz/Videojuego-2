@@ -1,0 +1,1630 @@
+# depslib dependency file v1.0
+1555181500 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/main.cpp
+	<SFML/Graphics.hpp>
+	"include/Mapa.h"
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	"include/juego.h"
+
+1554918606 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/Mapa.h
+	"tinyxml2.h"
+	"SFML/Graphics.hpp"
+
+1554794315 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1558374689 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/juego.h
+	<SFML/System/Clock.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	"Bala.h"
+	"Torreta.h"
+	"enemigos.h"
+	"enemigos2.h"
+	"Moneda.h"
+	<vector>
+	<Mapa.h>
+	<StateMachine.h>
+	<BalaMisil.h>
+	<Castillo.h>
+	<Bomba.h>
+	<sstream>
+	"Hud.h"
+	<boss1.h>
+
+1555354133 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/player.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<mundo.h>
+
+1558374689 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/mundo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	<Mapa.h>
+	<enemigos.h>
+	<enemigos2.h>
+	<vector>
+	<Torreta.h>
+	<Bala.h>
+	<Moneda.h>
+	<BalaMisil.h>
+	<boss1.h>
+	<Castillo.h>
+	<Bomba.h>
+
+1555264179 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/enemigos.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1555181500 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/Torreta.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<mundo.h>
+
+1558347711 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/Bala.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<boss1.h>
+	<math.h>
+
+1555263628 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/Moneda.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<math.h>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+
+1558347711 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/BalaMisil.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+	<boss1.h>
+
+1555270920 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/StateMachine.h
+	<iostream>
+
+1558347711 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/Bala.cpp
+	"../include/Bala.h"
+	<iostream>
+	<math.h>
+
+1558347711 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/BalaMisil.cpp
+	"BalaMisil.h"
+
+1554794315 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/Drawable.cpp
+	"Drawable.hpp"
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1554794315 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1557820786 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/enemigos.cpp
+	"../include/enemigos.h"
+
+1558374689 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/juego.cpp
+	"../include/juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1557820394 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/Mapa.cpp
+	"../include/Mapa.h"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"tinyxml2.h"
+
+1555263734 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/Moneda.cpp
+	"Moneda.h"
+	<iostream>
+
+1558374689 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/mundo.cpp
+	"mundo.h"
+
+1557821193 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/player.cpp
+	"player.h"
+
+1555352866 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/StateMachine.cpp
+	"StateMachine.h"
+
+1554794315 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/TileMap.cpp
+	"TileMap.h"
+
+1554794315 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/TileMap.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+
+1554794315 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1555181500 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/Torreta.cpp
+	"../include/Torreta.h"
+
+1555181500 source:/home/fv/Escritorio/raid-humans/main.cpp
+	<SFML/Graphics.hpp>
+	"include/Mapa.h"
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	"include/juego.h"
+
+1554918606 /home/fv/Escritorio/raid-humans/include/Mapa.h
+	"tinyxml2.h"
+	"SFML/Graphics.hpp"
+
+1554794315 /home/fv/Escritorio/raid-humans/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1557820515 /home/fv/Escritorio/raid-humans/include/juego.h
+	<SFML/System/Clock.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	"Bala.h"
+	"Torreta.h"
+	"enemigos.h"
+	"Moneda.h"
+	<vector>
+	<Mapa.h>
+	<StateMachine.h>
+	<BalaMisil.h>
+	<Castillo.h>
+	<sstream>
+	"Hud.h"
+	<boss1.h>
+
+1555354133 /home/fv/Escritorio/raid-humans/include/player.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<mundo.h>
+
+1557820560 /home/fv/Escritorio/raid-humans/include/mundo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	<Mapa.h>
+	<enemigos.h>
+	<vector>
+	<Torreta.h>
+	<Bala.h>
+	<Moneda.h>
+	<BalaMisil.h>
+	<boss1.h>
+	<Castillo.h>
+
+1555264179 /home/fv/Escritorio/raid-humans/include/enemigos.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1555181500 /home/fv/Escritorio/raid-humans/include/Torreta.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<mundo.h>
+
+1557820385 /home/fv/Escritorio/raid-humans/include/Bala.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<boss1.h>
+	<math.h>
+
+1555263628 /home/fv/Escritorio/raid-humans/include/Moneda.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<math.h>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+
+1557820456 /home/fv/Escritorio/raid-humans/include/BalaMisil.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+	<boss1.h>
+
+1555270920 /home/fv/Escritorio/raid-humans/include/StateMachine.h
+	<iostream>
+
+1557820385 source:/home/fv/Escritorio/raid-humans/src/Bala.cpp
+	"../include/Bala.h"
+	<iostream>
+	<math.h>
+
+1554794315 source:/home/fv/Escritorio/raid-humans/src/Drawable.cpp
+	"Drawable.hpp"
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1554794315 /home/fv/Escritorio/raid-humans/include/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1557820786 source:/home/fv/Escritorio/raid-humans/src/enemigos.cpp
+	"../include/enemigos.h"
+
+1557821761 source:/home/fv/Escritorio/raid-humans/src/juego.cpp
+	"../include/juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1557820394 source:/home/fv/Escritorio/raid-humans/src/Mapa.cpp
+	"../include/Mapa.h"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"tinyxml2.h"
+
+1555263734 source:/home/fv/Escritorio/raid-humans/src/Moneda.cpp
+	"Moneda.h"
+	<iostream>
+
+1557821069 source:/home/fv/Escritorio/raid-humans/src/mundo.cpp
+	"mundo.h"
+
+1557821193 source:/home/fv/Escritorio/raid-humans/src/player.cpp
+	"player.h"
+
+1554794315 source:/home/fv/Escritorio/raid-humans/src/TileMap.cpp
+	"TileMap.h"
+
+1554794315 /home/fv/Escritorio/raid-humans/include/TileMap.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+
+1554794315 source:/home/fv/Escritorio/raid-humans/src/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1555181500 source:/home/fv/Escritorio/raid-humans/src/Torreta.cpp
+	"../include/Torreta.h"
+
+1557820759 source:/home/fv/Escritorio/raid-humans/src/BalaMisil.cpp
+	"BalaMisil.h"
+
+1555352866 source:/home/fv/Escritorio/raid-humans/src/StateMachine.cpp
+	"StateMachine.h"
+
+1555229804 source:/home/juanmi/Documentos/raid-humans/raid-humans/main.cpp
+	<SFML/Graphics.hpp>
+	"include/Mapa.h"
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	"include/juego.h"
+
+1555058778 /home/juanmi/Documentos/raid-humans/raid-humans/include/Mapa.h
+	"tinyxml2.h"
+	"SFML/Graphics.hpp"
+
+1555058764 /home/juanmi/Documentos/raid-humans/raid-humans/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1557906149 /home/juanmi/Documentos/raid-humans/raid-humans/include/juego.h
+	<SFML/System/Clock.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	"Bala.h"
+	"Torreta.h"
+	"enemigos.h"
+	"enemigos2.h"
+	"Moneda.h"
+	<vector>
+	<Mapa.h>
+	<StateMachine.h>
+	<BalaMisil.h>
+	<Castillo.h>
+	<sstream>
+	"Hud.h"
+	<boss1.h>
+
+1557821201 /home/juanmi/Documentos/raid-humans/raid-humans/include/player.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<mundo.h>
+
+1557906149 /home/juanmi/Documentos/raid-humans/raid-humans/include/mundo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	<Mapa.h>
+	<enemigos.h>
+	<enemigos2.h>
+	<vector>
+	<Torreta.h>
+	<Bala.h>
+	<Moneda.h>
+	<BalaMisil.h>
+	<boss1.h>
+	<Castillo.h>
+
+1557821201 /home/juanmi/Documentos/raid-humans/raid-humans/include/enemigos.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1557821201 /home/juanmi/Documentos/raid-humans/raid-humans/include/Torreta.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<mundo.h>
+
+1557906149 /home/juanmi/Documentos/raid-humans/raid-humans/include/Bala.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<boss1.h>
+	<math.h>
+
+1557821201 /home/juanmi/Documentos/raid-humans/raid-humans/include/Moneda.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<math.h>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+
+1557906149 /home/juanmi/Documentos/raid-humans/raid-humans/include/BalaMisil.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+	<boss1.h>
+
+1557821201 /home/juanmi/Documentos/raid-humans/raid-humans/include/StateMachine.h
+	<iostream>
+
+1557906150 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/Bala.cpp
+	"../include/Bala.h"
+	<iostream>
+	<math.h>
+
+1557906150 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/BalaMisil.cpp
+	"BalaMisil.h"
+
+1555058764 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/Drawable.cpp
+	"Drawable.hpp"
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1555058764 /home/juanmi/Documentos/raid-humans/raid-humans/include/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1557855940 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/enemigos.cpp
+	"../include/enemigos.h"
+
+1557906852 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/juego.cpp
+	"../include/juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1557859844 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/Mapa.cpp
+	"../include/Mapa.h"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"tinyxml2.h"
+
+1557821201 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/Moneda.cpp
+	"Moneda.h"
+	<iostream>
+
+1557906150 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/mundo.cpp
+	"mundo.h"
+
+1557859844 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/player.cpp
+	"player.h"
+
+1557821201 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/StateMachine.cpp
+	"StateMachine.h"
+
+1555058764 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/TileMap.cpp
+	"TileMap.h"
+
+1555058764 /home/juanmi/Documentos/raid-humans/raid-humans/include/TileMap.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+
+1555058764 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1557821201 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/Torreta.cpp
+	"../include/Torreta.h"
+
+1557820473 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/Castillo.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+
+1557820766 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/Castillo.cpp
+	"Castillo.h"
+
+1555179276 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/main.cpp
+	<SFML/Graphics.hpp>
+	"include/Mapa.h"
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	"include/juego.h"
+
+1554989822 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/Mapa.h
+	"tinyxml2.h"
+	"SFML/Graphics.hpp"
+
+1554794141 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1555268721 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/juego.h
+	<SFML/System/Clock.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	"Bala.h"
+	"Torreta.h"
+	"enemigos.h"
+	"Moneda.h"
+	<vector>
+	<Mapa.h>
+	<StateMachine.h>
+	<BalaMisil.h>
+	<Castillo.h>
+	<sstream>
+
+1555185559 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/player.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<mundo.h>
+
+1555265438 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/mundo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	<Mapa.h>
+	<enemigos.h>
+	<vector>
+	<Torreta.h>
+	<Bala.h>
+	<Moneda.h>
+	<BalaMisil.h>
+	<Castillo.h>
+
+1555265438 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/enemigos.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1555180759 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/Torreta.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<mundo.h>
+
+1555053755 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/Bala.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+
+1555255415 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/Moneda.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<math.h>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+
+1555174788 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/BalaMisil.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+
+1555265438 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/Castillo.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+
+1555267927 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/StateMachine.h
+	<iostream>
+
+1555185559 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/Bala.cpp
+	"../include/Bala.h"
+	<iostream>
+	<math.h>
+
+1555265438 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/BalaMisil.cpp
+	"BalaMisil.h"
+
+1554794141 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/Drawable.cpp
+	"Drawable.hpp"
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1554794141 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1555265438 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/enemigos.cpp
+	"../include/enemigos.h"
+
+1555268708 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/juego.cpp
+	"../include/juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1554989823 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/Mapa.cpp
+	"../include/Mapa.h"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"tinyxml2.h"
+
+1555265438 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/Moneda.cpp
+	"Moneda.h"
+	<iostream>
+
+1555265438 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/mundo.cpp
+	"mundo.h"
+
+1555265438 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/player.cpp
+	"player.h"
+
+1555267769 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/StateMachine.cpp
+	"StateMachine.h"
+
+1554794141 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/TileMap.cpp
+	"TileMap.h"
+
+1554794141 /home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/include/TileMap.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+
+1554794141 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1555178724 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/Torreta.cpp
+	"../include/Torreta.h"
+
+1555265438 source:/home/fv/Escritorio/PracticaFV/PracticaFV/raid-humans/raid-humans/src/Castillo.cpp
+	"Castillo.h"
+
+1557820473 /home/fv/Escritorio/raid-humans/include/Castillo.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+
+1557820766 source:/home/fv/Escritorio/raid-humans/src/Castillo.cpp
+	"Castillo.h"
+
+1555319100 source:/home/fv/Escritorio/raid-humans/raid-humans/main.cpp
+	<SFML/Graphics.hpp>
+	"include/Mapa.h"
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	"include/juego.h"
+
+1554912294 /home/fv/Escritorio/raid-humans/raid-humans/include/Mapa.h
+	"tinyxml2.h"
+	"SFML/Graphics.hpp"
+
+1554747365 /home/fv/Escritorio/raid-humans/raid-humans/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1555358295 /home/fv/Escritorio/raid-humans/raid-humans/include/juego.h
+	<SFML/System/Clock.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	"Bala.h"
+	"Torreta.h"
+	"enemigos.h"
+	"Moneda.h"
+	<vector>
+	<Mapa.h>
+	<StateMachine.h>
+	<BalaMisil.h>
+	<Castillo.h>
+	<sstream>
+	"Hud.h"
+
+1555358019 /home/fv/Escritorio/raid-humans/raid-humans/include/player.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<mundo.h>
+
+1555358014 /home/fv/Escritorio/raid-humans/raid-humans/include/mundo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	<Mapa.h>
+	<enemigos.h>
+	<vector>
+	<Torreta.h>
+	<Bala.h>
+	<Moneda.h>
+	<BalaMisil.h>
+	<Castillo.h>
+
+1555319100 /home/fv/Escritorio/raid-humans/raid-humans/include/enemigos.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1555319100 /home/fv/Escritorio/raid-humans/raid-humans/include/Torreta.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<mundo.h>
+
+1555319100 /home/fv/Escritorio/raid-humans/raid-humans/include/Bala.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+
+1555319100 /home/fv/Escritorio/raid-humans/raid-humans/include/Moneda.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<math.h>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+
+1555319100 /home/fv/Escritorio/raid-humans/raid-humans/include/BalaMisil.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+
+1555319100 /home/fv/Escritorio/raid-humans/raid-humans/include/Castillo.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+
+1555319100 /home/fv/Escritorio/raid-humans/raid-humans/include/StateMachine.h
+	<iostream>
+
+1555358019 source:/home/fv/Escritorio/raid-humans/raid-humans/src/Bala.cpp
+	"../include/Bala.h"
+	<iostream>
+	<math.h>
+
+1555358019 source:/home/fv/Escritorio/raid-humans/raid-humans/src/BalaMisil.cpp
+	"BalaMisil.h"
+
+1555319100 source:/home/fv/Escritorio/raid-humans/raid-humans/src/Castillo.cpp
+	"Castillo.h"
+
+1554747365 source:/home/fv/Escritorio/raid-humans/raid-humans/src/Drawable.cpp
+	"Drawable.hpp"
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1554747365 /home/fv/Escritorio/raid-humans/raid-humans/include/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1555358019 source:/home/fv/Escritorio/raid-humans/raid-humans/src/enemigos.cpp
+	"../include/enemigos.h"
+
+1555358384 source:/home/fv/Escritorio/raid-humans/raid-humans/src/juego.cpp
+	"../include/juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1554888103 source:/home/fv/Escritorio/raid-humans/raid-humans/src/Mapa.cpp
+	"../include/Mapa.h"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"tinyxml2.h"
+
+1555319100 source:/home/fv/Escritorio/raid-humans/raid-humans/src/Moneda.cpp
+	"Moneda.h"
+	<iostream>
+
+1555358014 source:/home/fv/Escritorio/raid-humans/raid-humans/src/mundo.cpp
+	"mundo.h"
+
+1555358019 source:/home/fv/Escritorio/raid-humans/raid-humans/src/player.cpp
+	"player.h"
+
+1555358019 source:/home/fv/Escritorio/raid-humans/raid-humans/src/StateMachine.cpp
+	"StateMachine.h"
+
+1554747365 source:/home/fv/Escritorio/raid-humans/raid-humans/src/TileMap.cpp
+	"TileMap.h"
+
+1554747365 /home/fv/Escritorio/raid-humans/raid-humans/include/TileMap.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+
+1554747365 source:/home/fv/Escritorio/raid-humans/raid-humans/src/tinyxml2.cpp
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1555319100 source:/home/fv/Escritorio/raid-humans/raid-humans/src/Torreta.cpp
+	"../include/Torreta.h"
+
+1555357282 /home/fv/Escritorio/raid-humans/raid-humans/include/Hud.h
+	<SFML/Graphics.hpp>
+	"mundo.h"
+	"player.h"
+
+1557855940 /home/juanmi/Documentos/raid-humans/raid-humans/include/Castillo.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+
+1557859843 /home/juanmi/Documentos/raid-humans/raid-humans/include/Hud.h
+	<SFML/Graphics.hpp>
+	"mundo.h"
+	"player.h"
+
+1557855940 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/Castillo.cpp
+	"Castillo.h"
+
+1557859844 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/Hud.cpp
+	"Hud.h"
+
+1558347711 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/Hud.h
+	<SFML/Graphics.hpp>
+	"mundo.h"
+	"player.h"
+
+1558347711 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/Hud.cpp
+	"Hud.h"
+
+1557820484 /home/fv/Escritorio/raid-humans/include/Hud.h
+	<SFML/Graphics.hpp>
+	"mundo.h"
+	"player.h"
+
+1557820793 source:/home/fv/Escritorio/raid-humans/src/Hud.cpp
+	"Hud.h"
+
+1557822255 /home/fv/Escritorio/raid-humans/include/boss1.h
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1557822255 source:/home/fv/Escritorio/raid-humans/src/boss1.cpp
+	"boss1.h"
+
+1557822255 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/boss1.h
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1557822255 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/boss1.cpp
+	"boss1.h"
+
+1557859843 /home/juanmi/Documentos/raid-humans/raid-humans/include/boss1.h
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1557859844 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/boss1.cpp
+	"boss1.h"
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/main.cpp
+	<SFML/Graphics.hpp>
+	"include/Mapa.h"
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	"include/juego.h"
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/Mapa.h
+	"tinyxml2.h"
+	"SFML/Graphics.hpp"
+
+1558363137 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/juego.h
+	<SFML/System/Clock.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	"Bala.h"
+	"Torreta.h"
+	"enemigos.h"
+	"enemigos2.h"
+	"Moneda.h"
+	<vector>
+	<Mapa.h>
+	<StateMachine.h>
+	<BalaMisil.h>
+	<Castillo.h>
+	<sstream>
+	"Hud.h"
+	<boss1.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/player.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<mundo.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/mundo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	<Mapa.h>
+	<enemigos.h>
+	<enemigos2.h>
+	<vector>
+	<Torreta.h>
+	<Bala.h>
+	<Moneda.h>
+	<BalaMisil.h>
+	<boss1.h>
+	<Castillo.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/enemigos.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/Torreta.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<mundo.h>
+
+1558363823 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/enemigos2.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/Bala.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<boss1.h>
+	<math.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/boss1.h
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/Moneda.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<math.h>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/BalaMisil.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+	<boss1.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/Castillo.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/StateMachine.h
+	<iostream>
+
+1558363284 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/Hud.h
+	<SFML/Graphics.hpp>
+	"mundo.h"
+	"player.h"
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/boss1.cpp
+	"boss1.h"
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/Castillo.cpp
+	"Castillo.h"
+
+1558363137 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/Drawable.cpp
+	"Drawable.hpp"
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1558363137 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/enemigos.cpp
+	"../include/enemigos.h"
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/Hud.cpp
+	"Hud.h"
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/Mapa.cpp
+	"../include/Mapa.h"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"tinyxml2.h"
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/Moneda.cpp
+	"Moneda.h"
+	<iostream>
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/player.cpp
+	"player.h"
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/StateMachine.cpp
+	"StateMachine.h"
+
+1558363137 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/TileMap.cpp
+	"TileMap.h"
+
+1558363137 /home/fv/Escritorio/gh8/raid-humans/raid-humans/include/TileMap.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+
+1558363137 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/Torreta.cpp
+	"../include/Torreta.h"
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/Bala.cpp
+	"../include/Bala.h"
+	<iostream>
+	<math.h>
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/BalaMisil.cpp
+	"BalaMisil.h"
+
+1558363839 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/enemigos2.cpp
+	"../include/enemigos2.h"
+
+1558364168 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/juego.cpp
+	"../include/juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1558363284 source:/home/fv/Escritorio/gh8/raid-humans/raid-humans/src/mundo.cpp
+	"mundo.h"
+
+1557906149 /home/juanmi/Documentos/raid-humans/raid-humans/include/enemigos2.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1557906150 source:/home/juanmi/Documentos/raid-humans/raid-humans/src/enemigos2.cpp
+	"../include/enemigos2.h"
+
+1555844458 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/main.cpp
+	<SFML/Graphics.hpp>
+	"include/Mapa.h"
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	"include/juego.h"
+
+1555844458 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/Mapa.h
+	"tinyxml2.h"
+	"SFML/Graphics.hpp"
+
+1555844392 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1558085086 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/juego.h
+	<SFML/System/Clock.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	"Bala.h"
+	"Torreta.h"
+	"enemigos.h"
+	"enemigos2.h"
+	"Moneda.h"
+	<vector>
+	<Mapa.h>
+	<StateMachine.h>
+	<BalaMisil.h>
+	<Castillo.h>
+	<sstream>
+	"Hud.h"
+	<boss1.h>
+
+1555844458 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/player.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<mundo.h>
+
+1558080525 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/mundo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	<Mapa.h>
+	<enemigos.h>
+	<enemigos2.h>
+	<vector>
+	<Torreta.h>
+	<Bala.h>
+	<Moneda.h>
+	<BalaMisil.h>
+	<boss1.h>
+	<Castillo.h>
+
+1555844458 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/enemigos.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1555844458 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/Torreta.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<mundo.h>
+
+1558080244 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/enemigos2.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1558080244 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/Bala.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<boss1.h>
+	<math.h>
+
+1558080244 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/boss1.h
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1555844458 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/Moneda.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<math.h>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+
+1558080244 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/BalaMisil.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+	<boss1.h>
+
+1558080244 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/Castillo.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+
+1555844458 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/StateMachine.h
+	<iostream>
+
+1558082798 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/Hud.h
+	<SFML/Graphics.hpp>
+	"mundo.h"
+	"player.h"
+
+1558080244 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/Bala.cpp
+	"../include/Bala.h"
+	<iostream>
+	<math.h>
+
+1558080244 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/BalaMisil.cpp
+	"BalaMisil.h"
+
+1558080244 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/boss1.cpp
+	"boss1.h"
+
+1558080244 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/Castillo.cpp
+	"Castillo.h"
+
+1555844392 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/Drawable.cpp
+	"Drawable.hpp"
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1555844392 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1558080244 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/enemigos.cpp
+	"../include/enemigos.h"
+
+1558080244 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/enemigos2.cpp
+	"../include/enemigos2.h"
+
+1558080244 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/juego.cpp
+	"../include/juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1556016114 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/Mapa.cpp
+	"../include/Mapa.h"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"tinyxml2.h"
+
+1555844459 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/Moneda.cpp
+	"Moneda.h"
+	<iostream>
+
+1558080244 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/player.cpp
+	"player.h"
+
+1555844459 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/StateMachine.cpp
+	"StateMachine.h"
+
+1555844392 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/TileMap.cpp
+	"TileMap.h"
+
+1555844392 /home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/include/TileMap.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+
+1555844392 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1555844459 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/Torreta.cpp
+	"../include/Torreta.h"
+
+1558082270 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/mundo.cpp
+	"mundo.h"
+
+1558082908 source:/home/fv/Escritorio/proyectoFV/raid-humans/raid-humans/src/Hud.cpp
+	"Hud.h"
+
+1558365054 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/main.cpp
+	<SFML/Graphics.hpp>
+	"include/Mapa.h"
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	"include/juego.h"
+
+1558365054 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/Mapa.h
+	"tinyxml2.h"
+	"SFML/Graphics.hpp"
+
+1558365054 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1558365839 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/juego.h
+	<SFML/System/Clock.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	"Bala.h"
+	"Torreta.h"
+	"enemigos.h"
+	"enemigos2.h"
+	"Moneda.h"
+	<vector>
+	<Mapa.h>
+	<StateMachine.h>
+	<BalaMisil.h>
+	<Castillo.h>
+	<Bomba.h>
+	<sstream>
+	"Hud.h"
+	<boss1.h>
+
+1558365054 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/player.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<mundo.h>
+
+1558365940 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/mundo.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"player.h"
+	<Mapa.h>
+	<enemigos.h>
+	<enemigos2.h>
+	<vector>
+	<Torreta.h>
+	<Bala.h>
+	<Moneda.h>
+	<BalaMisil.h>
+	<boss1.h>
+	<Castillo.h>
+	<Bomba.h>
+
+1558365054 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/enemigos.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1558365071 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/Torreta.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<mundo.h>
+
+1558365083 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/enemigos2.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1558365083 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/Bala.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<boss1.h>
+	<math.h>
+
+1558365083 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/boss1.h
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1558365054 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/Moneda.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<math.h>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+
+1558365083 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/BalaMisil.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"enemigos.h"
+	<math.h>
+	<boss1.h>
+
+1558365083 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/Castillo.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+
+1558365054 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/StateMachine.h
+	<iostream>
+
+1558365083 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/Hud.h
+	<SFML/Graphics.hpp>
+	"mundo.h"
+	"player.h"
+
+1558365054 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/Drawable.cpp
+	"Drawable.hpp"
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1558365054 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1558365084 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/enemigos.cpp
+	"../include/enemigos.h"
+
+1558365054 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/Mapa.cpp
+	"../include/Mapa.h"
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"tinyxml2.h"
+
+1558365054 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/Moneda.cpp
+	"Moneda.h"
+	<iostream>
+
+1558365054 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/StateMachine.cpp
+	"StateMachine.h"
+
+1558365054 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/TileMap.cpp
+	"TileMap.h"
+
+1558365054 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/TileMap.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+
+1558365054 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1558365072 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/Torreta.cpp
+	"../include/Torreta.h"
+
+1558364151 /home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/include/Bomba.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<enemigos.h>
+
+1558365084 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/Bala.cpp
+	"../include/Bala.h"
+	<iostream>
+	<math.h>
+
+1558365084 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/BalaMisil.cpp
+	"BalaMisil.h"
+
+1558365084 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/boss1.cpp
+	"boss1.h"
+
+1558365084 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/Castillo.cpp
+	"Castillo.h"
+
+1558365084 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/enemigos2.cpp
+	"../include/enemigos2.h"
+
+1558365084 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/Hud.cpp
+	"Hud.h"
+
+1558365084 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/player.cpp
+	"player.h"
+
+1558368088 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/Bomba.cpp
+	"Bomba.h"
+
+1558367040 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/mundo.cpp
+	"mundo.h"
+
+1558367803 source:/home/fv/Escritorio/GameH8-Hito3/raid-humans/raid-humans/src/juego.cpp
+	"../include/juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	"tinyxml2.h"
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1558374689 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/enemigos2.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<player.h>
+	<Torreta.h>
+	<math.h>
+
+1558374689 /home/fv/Escritorio/repositorio/raid-humans/raid-humans/include/Bomba.h
+	<SFML/Graphics.hpp>
+	<mundo.h>
+	<enemigos.h>
+
+1558374689 source:/home/fv/Escritorio/repositorio/raid-humans/raid-humans/src/enemigos2.cpp
+	"../include/enemigos2.h"
+
